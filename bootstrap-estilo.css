@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	margin: 0;
+	max-width: 100%;
+}
+#nav-a{
+    font-family: SOFIA PRO;
+	font-size: 1.1em;
+	margin-top: -3.5em;
+	margin-right: 3em;
+    max-width: 6.5em;
+    height: 2.5em;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 5em;
+	border:1.2px solid black;
+	background: lightgoldenrodyellow;
+}
+#nav-a:hover{
+	font-weight: bolder;
+	background: #B6CA87;
+	border: 1.7px solid #1A1919;
+}
+header{
+	z-index: 200;
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+    height: 7em;
+	background-image:linear-gradient(0deg, rgba(26, 25, 25, 0.3), rgba(26, 25, 25, 0.3)), url(../images/background-image.jpg);
+	background-size: cover;
+}
+nav div{
+	font-family: SOFIA PRO;
+    display: inline-flex;
+	text-align: center;
+	justify-content: flex-end;
+}
+h1{
+    font-size: 1.4em;
+    margin-top: 0.6em;
+    font-weight: bolder;
+	font-family: Lato;
+	text-align: center;
+	color:goldenrod;
+	border-radius: 5em;
+    border:1.2px solid black;
+}
+div h1{
+    margin-left: 2em;
+    margin-top: 1em;
+	font-weight: bolder;
+    background: lightgoldenrodyellow;
+	padding: 0.6em;
+	max-width: 7em;
+	border-radius: 10em 15em 10em 15em / 10em 5em 10em 5em;
+}
+h2{
+
+    text-align: center;
+    color: darkolivegreen;
+}
+h3{
+
+    font-family: Minerva Modern;
+    color: palegoldenrod;
+
+}
+p{
+    font-family: SOFIA PRO;
+}
+#form-suscripcion{
+	padding-top: 12.5%;
+	top: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 38em;
+	background-image:linear-gradient(0deg, rgba(26, 25, 25, 0.3), rgba(26, 25, 25, 0.3)), url(../images/background-image.jpg);
+	background-size: cover;
+	background background-repeat: no-repeat;
+	background-position: center center;
+}
+#form-suscripcion div{
+	margin: -1em auto;
+	padding: 2em 1em;
+	width: 23em;
+	height: 23em;
+	border-radius: 3em;
+	background: RGBA(166, 138, 100, 0.5);
+	text-align: center;
+
+}
+#form-suscripcion h3{
+	color: #386641;
+	font-weight: bolder;
+	font-family: Minerva Modern;
+}
+.form-texto{
+    border-radius: 3em;
+	margin: 0px auto;
+	text-align: center;
+	width: 12.75em;
+}
+.subtitle-form{
+	font-family: SOFIA PRO;
+	color: palegoldenrod;
+	font-weight: bold;
+}
+.form-email{
+	margin: 0px auto;
+	text-align: center;
+	width: 12.75em;
+	border-radius: 3em;
+}
+.form-button{
+	background: #deefb7;
+	border-radius: 1em;
+	margin: 0px auto;
+	margin-top: 1.2em;
+	height: 2.2em;
+	width: 8.75em;
+	font-weight: bold;
+	font-family: Lato;
+}
+#introduccion h3{
+    width: 17em;
+    margin: 1em auto;
+	text-align: center;
+	font-weight: bolder;
+	border: 1.2px solid black;
+	border-radius: 5em;
+	box-shadow: 0.3em 0.3em 0.5em 0 whitesmoke;
+	background: lightgoldenrodyellow;
+	color: darkolivegreen;
+}
+#introduccion p{
+    text-align: center;
+    font-size: 1.5em;
+}
+#custom-cards{
+    background: whitesmoke;
+}
+#custom-cards h2{
+    font-weight: bolder;
+    font-family: Lato;
+
+}
+#custom-cards h3{
+    margin-left: 0.4em;
+}
+#desierto{
+    background: #F6FFD4;
+    padding: 2em;
+    margin-top: 1.4em;
+}
+#title-desierto h3{
+    text-align: center;
+    margin: 0.2em auto;
+    display: inline-flex;
+    justify-self: center;
+    justify-content: center;
+    max-height: 3em;
+    max-width: 12em;
+}
+.lista-desierto{
+    font-family: SOFIA PRO;
+    font-weight: 50;
+    color: darkolivegreen;
+    display: inline-flex;
+    flex-direction: column;
+}
+#img-desierto{
+	text-align: center;
+}
+#img-desierto img{
+    border-radius: 1.5em;
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	width: 35em;
+	height: 15em;
+}
+#border-container h4{
+    font-family: Lato;
+    font-weight: bolder;
+    max-width: 50em;
+    height: 3em;
+    color: olivedrab;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background: palegoldenrod;
+    border-radius: 3em;
+    font-size: 2em;
+    text-align: center;
+}
+#desierto h3{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	font-size: 2em;
+	border: 1.2px solid black;
+	border-radius: 5em;
+	background: lightgoldenrodyellow;
+	color: darkolivegreen;
+
+}
+#desierto p{
+    color: darkolivegreen;
+    font-family: SOFIA PRO;
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+    text-align: center;
+}
+
+#laguna{
+    background: #B6CA87;
+}
+#campo{
+	margin-bottom: 3em;
+	text-align: center;
+}
+#campo h4{
+	font-family: Lato;
+	font-weight: bolder;
+	color: olivedrab;
+	margin: 1em ;
+	margin-bottom: 1.5em;
+	text-align: center;
+	font-size: 2.4em;
+}
+.lista-campo{
+	font-family: SOFIA PRO;
+	font-size: 1.2em;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+}
+#campo img{
+	position: center;
+	border-radius: 3em;
+	width: 20em;
+	height: 15em;
+}
+.h3-campo{
+	margin: 0.4em auto;
+	width:20em;
+	font-size: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 3.5em;
+	text-align: center;
+	border: 1.2px solid black;
+	border-radius: 5em;
+	font-weight: bolder;
+	background: lightgoldenrodyellow;
+	color: darkolivegreen;
+}
+#campo p{
+	margin-top: 1.5em;
+	text-align: center;
+	font-size: 1.2em;
+}
+#footer{
+	height: 2em;
+	color: darkolivegreen;
+	background: #deefb7;
+	font-size: 1.1em;
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	height: 1.5em;
+}
+.texto-divide{
+	margin-bottom: 1em;
+	text-align: center;
+	font-family: Minerva Modern;
+	font-size: 1.4em;
+	color: olivedrab;
+}
+hr{
+	width: 12em;
+	margin: 1em auto;
+}
+.informacion-lago{
+	color: black;
+	padding: 0.5em;
+	margin-bottom: 2em;
+	font-size: 1em;
+	text-align: center;
+	font-family: Lato;
+	margin: 10px auto;
+	width: 30em;
+	display: block;
+	border-radius: 3em;
+	text-decoration: none;
+	border: 1.2px solid black;
+	background: #deefb7;
+}
+.informacion-lago:hover{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+#mini-biografia{
+	padding: 2em;
+	font-family: Lato;
+	outline: 1.2px solid black;
+	background: whitesmoke;
+	border-radius: 3.5em;
+}
+#mini-biografia h3{
+	margin-left: 0.4em;
+	margin-bottom: 0.8em;
+	color: darkolivegreen;
+}
+#mini-biografia img{
+	display: flex;
+	margin-top: 0.5em;
+	width: 25em;
+	height: 10em;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: column;
+	margin: 0.3em;
+}
+#contacto{
+	margin: 0.3em auto;
+	font-family: Lato;
+	font-size: 1.5em;
+	background: lightgoldenrodyellow;
+	border-radius: 3em;
+	border: 1.2px double darkolivegreen;
+}
+#contacto h4:first-child{
+	color: darkolivegreen;
+	text-align: center;
+	font-size: 1.4em;
+}
+#contacto h4{
+	color: black;
+	margin: 0.3em auto;
+	font-weight: bolder;
+	font-family: SOFIA PRO;
+}
+#contacto p{
+	max-width: 15em;
+	border-radius: 1.5em;
+	margin-left: 1.5em;
+	font-size: 1.2em;
+	color: darkolivegreen;
+    font-weight: bold;
+}
+#contacto p:hover{
+	color: white;
+	background: darkolivegreen;
+}
+.ig-contacto{
+	font-weight: bold;
+	margin-left: 1.5em;
+	text-decoration: none;
+	color: darkolivegreen;
+	border-radius: 1.5em;
+	max-width: 6em;
+}
+.ig-contacto:hover{
+	color: white;
+	background: darkolivegreen;
+}
